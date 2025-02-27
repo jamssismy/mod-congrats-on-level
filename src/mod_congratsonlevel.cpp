@@ -239,13 +239,13 @@ public:
                     case LOCALE_zhTW:
                     case LOCALE_ruRU:
                     {
-                        ss2 << "Congrats on Level " << level << " " << player->GetName() << "! You've been awarded " << money << " gold and a few treasures!";
+                        ss2 << "Congrats on Level " << level << " " << player->GetName() << "! You've been awarded " << money << " Copper and a few treasures!";
                         break;
                     }
                     case LOCALE_esES:
                     case LOCALE_esMX:
                     {
-                        ss2 << "¡Felicidades por el nivel " << level << " " << player->GetName() << " Se le ha concedido " << money << " oro y unos cuantos tesoros!";
+                        ss2 << "¡Felicidades por el nivel " << level << " " << player->GetName() << " Se le ha concedido " << money << " cobre y unos cuantos tesoros!";
                     }
                     default:
                         break;
